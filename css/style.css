@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #fff;
+    padding: 17px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    box-shadow: 0 2px 15px #9d9d9d1f;
+}
+
+.container .banner {
+    width: 100%;
+    min-height: 80px;
+}
+
+.container .banner img {
+    width: 100%;
+}
+
+.container .intro {
+    padding: 0 20px;
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container .intro .green {
+    color: #109d58;
+}
+
+.container .subject {
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.container .subject .name {
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.container .subject .name .dot {
+    color: #109d58;
+    font-size: 12px;
+    vertical-align: middle;
+    text-shadow: 0 2px 4px #109d5938;
+}
+
+.container .subject .section {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #109d58;
+}
+
+.container .subject .section .title {
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    padding-bottom: 10px;
+}
+
+.container .subject .section .list {
+    width: 100%;
+    font-size: 0;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+}
+
+.container .subject .section .list .icon {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    overflow: hidden;
+}
+
+.container .subject .section .list .icon img {
+    height: 100%;
+}
+
+.container .subject .section .list .text {
+    display: inline-block;
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.container .subject .section .list .text p {
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
+
+.container .fotter {
+    width: 100%;
+    padding: 60px;
+    background-color: #109d58;
+}
+
+.container .fotter p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .fotter .links {
+    text-align: center;
+}
+
+.container .fotter .links .link {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 3px rgba(255, 255, 255, .2);
+    letter-spacing: 5px;
+}
+
+@media(max-width: 450px) {
+    
+}
