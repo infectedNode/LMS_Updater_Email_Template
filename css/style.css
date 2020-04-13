@@ -56,7 +56,6 @@ body {
 .container .subject .name .dot {
     color: #109d58;
     font-size: 12px;
-    vertical-align: middle;
     text-shadow: 0 2px 4px #109d5938;
 }
 
@@ -131,6 +130,35 @@ body {
     letter-spacing: 5px;
 }
 
-@media(max-width: 450px) {
-    
+@media(max-width: 400px) {
+    .container .intro {
+        font-size: 18px;
+    }
+    .container .subject .name {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .container .subject .name .dot {
+        font-size: 10px;
+    }
+    .container .subject .section {
+        margin-bottom: 10px;
+    }
+    .container .subject .section .title {
+        font-size: 17px;
+    }
+    .container .subject .section .list {
+        height: 20px;
+    }
+    .container .subject .section .list .text p {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .container .fotter {
+        padding: 40px 30px;
+    }
+    .container .fotter p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
 }
