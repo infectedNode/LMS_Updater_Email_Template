@@ -10,15 +10,17 @@
 body {
     width: 100%;
     font-family: 'Fira Sans', sans-serif;
-    background-color: #fff;
+    background-color: #eee;
     padding: 17px;
 }
 
 .container {
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0px auto;
     box-shadow: 0 2px 15px #9d9d9d1f;
+    background-color: #fff;
+    border: 1px solid rgb(233, 233, 233);
 }
 
 .container .banner {
@@ -47,16 +49,26 @@ body {
 }
 
 .container .subject .name {
+    display: flex;
+    width: 100%;
+}
+
+.container .subject .name .block {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.container .subject .name .block img {
+    height: 100%;
+}
+
+.container .subject .name .text{
     color: rgb(70, 70, 70);
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 20px;
-}
-
-.container .subject .name .dot {
-    color: #109d58;
-    font-size: 12px;
-    text-shadow: 0 2px 4px #109d5938;
+    width: 90%;
 }
 
 .container .subject .section {
@@ -74,17 +86,14 @@ body {
 }
 
 .container .subject .section .list {
+    display: flex;
     width: 100%;
-    font-size: 0;
-    width: 100%;
-    height: 25px;
     margin: 10px 0;
 }
 
 .container .subject .section .list .icon {
-    display: inline-block;
-    height: 100%;
-    width: 10%;
+    height: 25px;
+    width: 45px;
     overflow: hidden;
 }
 
@@ -93,10 +102,7 @@ body {
 }
 
 .container .subject .section .list .text {
-    display: inline-block;
-    height: 100%;
     width: 90%;
-    overflow: hidden;
 }
 
 .container .subject .section .list .text p {
@@ -123,42 +129,56 @@ body {
 }
 
 .container .fotter .links .link {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 2px 3px rgba(255, 255, 255, .2);
     letter-spacing: 5px;
 }
 
+.container .fotter .links .link img {
+    height: 25px;
+}
+
 @media(max-width: 400px) {
+    body {
+        padding: 0px;
+    }    
     .container .intro {
-        font-size: 18px;
+        font-size: 16px;
     }
-    .container .subject .name {
+    .container .subject {
+        padding: 20px 20px;
+    }
+    .container .subject .name .block {
+        width: 20px;
+        height: 20px;
+    }
+    .container .subject .name .text{
         font-size: 16px;
         padding-bottom: 10px;
     }
-    .container .subject .name .dot {
-        font-size: 10px;
-    }
     .container .subject .section {
-        margin-bottom: 10px;
+        padding: 15px 0px;
+        margin-bottom: 15px;
     }
     .container .subject .section .title {
-        font-size: 17px;
+        font-size: 15px;
     }
-    .container .subject .section .list {
-        height: 20px;
+    .container .subject .section .list .icon {
+        height: 15px;
+        width: 25px;
     }
     .container .subject .section .list .text p {
-        line-height: 20px;
+        line-height: 15px;
         font-size: 15px;
     }
     .container .fotter {
-        padding: 40px 30px;
+        padding: 60px 30px 30px;
     }
     .container .fotter p {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 15px;
+    }
+    .container .fotter .links .link img {
+        height: 20px;
     }
 }
