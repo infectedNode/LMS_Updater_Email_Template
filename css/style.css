@@ -168,14 +168,14 @@ body {
         width: 25px;
     }
     .container .subject .section .list .text p {
-        line-height: 15px;
+        line-height: 20px;
         font-size: 15px;
     }
     .container .fotter {
-        padding: 60px 30px 30px;
+        padding: 40px 20px 20px;
     }
     .container .fotter p {
-        font-size: 13px;
+        font-size: 12px;
         margin-bottom: 15px;
     }
     .container .fotter .links .link img {
